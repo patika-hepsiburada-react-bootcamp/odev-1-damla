@@ -1,3 +1,3 @@
 import getData from './lib/service.js'
 
-getData(1);
+console.log(await getData(1));
