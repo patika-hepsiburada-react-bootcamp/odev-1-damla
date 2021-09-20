@@ -1,5 +1,11 @@
 import axios from "axios";
 
+/**
+ * Will fetch the data according to userId parameter.
+ * @param {number} userId
+ * @returns {Promise} Promise object represents user info and posts belong to user.
+ */
+
 export default async function getData(userId) {
     try {
         // extracted data from the incoming object
