@@ -1,0 +1,30 @@
+{
+  "name": "odev-1-damla",
+  "version": "1.0.0",
+  "description": "Homework for bootcamp.",
+  "main": "src/app.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/patika-hepsiburada-react-bootcamp/odev-1-damla.git"
+  },
+  "keywords": [
+    "Hepsiburada",
+    "Bootcamp",
+    "Kodluyoruz",
+    "Frontend",
+    "React"
+  ],
+  "author": "Damla Köksal",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/patika-hepsiburada-react-bootcamp/odev-1-damla/issues"
+  },
+  "homepage": "https://github.com/patika-hepsiburada-react-bootcamp/odev-1-damla#readme",
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
