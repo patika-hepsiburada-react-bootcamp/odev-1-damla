@@ -6,7 +6,7 @@ import axios from "axios";
  * @returns {Promise} Promise object represents user info and posts belong to user.
  */
 
-export default async function getData(userId) {
+const getData = async (userId) => {
     try {
         // extracted data from the incoming object
         let { data: user } = await axios(`https://jsonplaceholder.typicode.com/users/${userId}`);
@@ -15,9 +15,10 @@ export default async function getData(userId) {
         user = {
             ...user, posts
         }
-        return await user;
+        return user;
 
     } catch (error) {
         return error.message;
     }
 }
+export default getData;
